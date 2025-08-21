@@ -1,0 +1,19 @@
+identity:
+  name: "one_poetry"
+  author: "feiwangoooh"
+  label:
+    en_US: "one_poetry"
+    zh_Hans: "一句古诗词"
+description:
+  human:
+    en_US: "Randomly return a famous line of ancient Chinese poetry"
+    zh_Hans: "随机返回一句古诗词名句"
+  llm: "Randomly return a famous line of ancient Chinese poetry"
+extra:
+  python:
+    source: tools/one_poetry.py
+output_schema:
+  type: object
+  properties:
+    poetry:
+      type: string
