@@ -17,8 +17,8 @@
 - 基于 **Dify** 插件构建
 
 ### 使用截图
-<img src="/home/feiw/PycharmProjects/DifyPlugins/one_poetry/images/1.png" width="1056" height="210">
-<img src="/home/feiw/PycharmProjects/DifyPlugins/one_poetry/images/2.png" width="1295" height="713">
+<img src="images/1.png" width="1056" height="210">
+<img src="images/2.png" width="1295" height="713">
 
 ### 致谢
 在此感谢[古诗词·一言API](http://gushi.ci/)的作者对中国传统文化的贡献
