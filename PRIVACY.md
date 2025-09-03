@@ -1,3 +1,3 @@
 ## Privacy
 
-该插件不会收集任何用户数据
+The plugin's data is entirely sourced from public websites, and it does not collect any user information during operation.

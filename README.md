@@ -1,32 +1,48 @@
-## 一句话诗词
+## One Poetry
 
-**作者：** feiwangoooh  
-**版本：** 0.0.1  
-**类型：** 工具  
+**Author:** feiwangoooh  
+**Version:** 0.0.1  
+**Type:** Tool 
 
-### 描述
-随机返回一句古诗词名句
 
-### 插件说明
-这是一个基于 [古诗词·一言API](http://gushi.ci/) 开发的 Dify 插件，可以随机返回一句古诗词名句。该插件无需任何凭据或其他配置信息，调用工具即可获得随机的古典诗词句子及其作者和出处信息。
 
-### 功能特性
-- 随机返回一句古诗词名句
-- 自动包含作者和出处信息
-- 无需凭据或额外配置
-- 基于 **Dify** 插件构建
+### Description
 
-### 使用截图
-<img src="images/1.png" width="1056" height="210">
-<img src="images/2.png" width="1295" height="713">
+Randomly returns a famous line from classical Chinese poetry.  
 
-### 致谢
-在此感谢[古诗词·一言API](http://gushi.ci/)的作者对中国传统文化的贡献
+### Plugin Description
 
-### 实现细节
-该插件通过向古诗词·一言API (`https://v1.jinrishici.com/all.json`) 发送请求并格式化响应来工作，返回内容包括：
-- 诗词句子
-- 作者
-- 原始作品
+This is a Dify plugin developed based on the [GuShiCi·YiYanAPI](http://gushi.ci/), which can randomly return a famous line from classical Chinese poetry. The plugin requires no credentials or additional configuration. Simply call the tool to receive a random classical poetry line along with its author and source information.  
 
-实现在 [tools/one_poetry.py](tools/one_poetry.py) 文件中，使用 Python 和 requests 库完成。
+### Features
+
+- Randomly returns a famous line from classical Chinese poetry
+- Automatically includes author and source information
+- No credentials or additional configuration required
+- Built based on the ** Dify ** plugin framework  
+
+### Usage Screenshots
+
+<img src="images/1.png" width="1056" height="210">  
+<img src="images/2.png" width="1295" height="713">  
+
+### Implementation Details
+
+The plugin works by sending requests to the [GuShiCi·YIYanAPI](https://v1.jinrishici.com/all.json) and formatting the response. The returned content includes:  
+- The poetry line
+- Author information
+- Original work source  
+
+Implemented in the [tools/one_poetry.py](tools/one_poetry.py) file using Python and the requests library.  
+
+### Repository Address
+
+https://github.com/feiwangoooh/one_poetry/  
+
+### Contact Information
+
+2272142334@qq.com  
+
+### Acknowledgments
+
+Special thanks to the author of the [GuShiCi·YIYanAPI](http://gushi.ci/) for their contribution to Chinese traditional culture.
